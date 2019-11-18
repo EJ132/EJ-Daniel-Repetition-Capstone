@@ -1,0 +1,29 @@
+.LoginForm {
+    justify-content: center;
+}
+
+.LoginForm input {
+    color: white;
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: transparent;
+    font-size: 18px;
+    padding-left: 6px;
+    padding-bottom: 2px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.LoginForm button {
+    margin-top: 20px;
+    padding: 10px 50px 10px 50px;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.LoginForm button:hover {
+    cursor: pointer;
+}
