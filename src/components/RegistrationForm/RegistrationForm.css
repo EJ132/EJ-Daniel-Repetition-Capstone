@@ -47,3 +47,22 @@
     color: red;
     font-size: 14px;
 }
+
+@media screen and (max-width: 768px) {
+    .reg_form div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reg_form input {
+        color: white;
+        border: none;
+        border-bottom: 1px solid grey;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        text-align: left;
+        font-size: 16px;
+        background-color: transparent;
+    }
+}

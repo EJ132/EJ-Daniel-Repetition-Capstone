@@ -48,6 +48,9 @@ class RegistrationForm extends Component {
           {error && <p id='pass_error'>{error}</p>}
         </div>
         <div>
+          <Label id='hidden' htmlFor='registration-name-input'>
+            Enter your name<Required />
+          </Label>
           <Input
             ref={this.firstInput}
             placeholder='Full Name'
@@ -57,6 +60,9 @@ class RegistrationForm extends Component {
           />
         </div>
         <div>
+          <Label id='hidden' htmlFor='registration-username-input'>
+            Choose a username<Required />
+          </Label>
           <Input
             placeholder='user_name'
             id='registration-username-input'
@@ -65,6 +71,9 @@ class RegistrationForm extends Component {
           />
         </div>
         <div>
+          <Label id='hidden' htmlFor='registration-password-input'>
+            Choose a password<Required />
+          </Label>
           <Input
             placeholder='password'
             id='registration-password-input'

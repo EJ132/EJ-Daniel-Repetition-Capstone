@@ -18,14 +18,14 @@ class LoginRoute extends Component {
 
   render() {
     return (
-      <div className='banner_login'>
+      <section className='banner_login'>
         <div className='Overlay_login'>
           <h2>Login</h2>
           <LoginForm
             onLoginSuccess={this.handleLoginSuccess}
           />
         </div>
-      </div>
+      </section>
     );
   }
 }

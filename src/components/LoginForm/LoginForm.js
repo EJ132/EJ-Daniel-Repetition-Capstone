@@ -52,6 +52,9 @@ class LoginForm extends Component {
           {error && <p id='login_error'>{error}</p>}
         </div>
         <div>
+          <Label id='hidden' htmlFor='login-username-input'>
+            Username
+          </Label>
           <Input
             ref={this.firstInput}
             placeholder='John123'
@@ -61,6 +64,9 @@ class LoginForm extends Component {
           />
         </div>
         <div>
+          <Label id='hidden' htmlFor='login-password-input'>
+            Password
+          </Label>
           <Input
             id='login-password-input'
             placeholder='********'

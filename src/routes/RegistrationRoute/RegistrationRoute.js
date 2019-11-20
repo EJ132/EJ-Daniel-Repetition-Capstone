@@ -32,8 +32,7 @@ class RegistrationRoute extends Component {
           <div className="Overlay">
             <div>
               <h1>Learn <span id='german' onClick={this.handleGermanTitle}>{this.state.German ? <span>Deutsch</span> : <span>German</span>}</span> from the best.</h1>
-              <p>Get started by signing up!</p>
-              <p id="spaced">Here you can practice learning a language with the spaced repetition revision technique.</p>
+              <p id="spaced">Practice learning a language with the spaced reptition revision technique.</p>
             </div>
             <div className='sign_up'>
               <h2>Sign up</h2>
