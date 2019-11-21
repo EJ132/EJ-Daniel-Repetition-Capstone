@@ -31,8 +31,8 @@ class LearningRoute extends Component {
       }))
 
     this.displayValidation()
-    console.log(this.state.value)
-    console.log(this.state.result)
+    // console.log(this.state.value)
+    // console.log(this.state.result)
   }
 
   displayValidation = () => {
@@ -55,11 +55,11 @@ class LearningRoute extends Component {
         value: ''
       }))
 
-    console.log('give another word')
+    // console.log('give another word')
   }
 
   render() {
-    console.log(this.state)
+    // console.log(this.state)
     return (
       <section className='learn_section'>
         {this.state.result ? 

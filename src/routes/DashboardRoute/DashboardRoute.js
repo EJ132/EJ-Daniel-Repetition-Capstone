@@ -17,16 +17,13 @@ class DashboardRoute extends Component {
     .then(resJSON => { this.setState({
       languages : {...resJSON}
     })
-    console.log(resJSON)
 
     this.calculateGraph()
 
-    console.log(this.state.languages.language.name)
   })
   }
 
   displayDash = () => {
-    console.log('inside display: ' + this.state.languages.language.name)
     return (
       <div className='side_content'>
         <img src={german_flag} alt='german flag'/>
@@ -38,7 +35,7 @@ class DashboardRoute extends Component {
   }
 
   displayWords = () => {
-    console.log(this.state.languages.words)
+    // console.log(this.state.languages.words)
     return (this.state.languages.words.map(word =>
       <li className='practice_more' key={word.id}>
         <h4>{word.original}</h4>
@@ -56,8 +53,9 @@ class DashboardRoute extends Component {
           uncompleted: this.state.languages.words.length - 1 - this.state.completed
         })
       }
+      return null;
     })
-    console.log('COUNT: ' + this.state.completed)
+    // console.log('COUNT: ' + this.state.completed)
   }
 
   render() {
