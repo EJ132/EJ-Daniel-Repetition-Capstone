@@ -96,7 +96,7 @@ class DashboardRoute extends Component {
                 {this.state.languages ? this.displayWords() : 'Loading...'}
               </div>
               <div className='progress'>
-                <h2>Progress (under construction...)</h2>
+                <h2>Progress</h2>
                 <Doughnut options={this.options} data={this.data} />
               </div>
             </div>
