@@ -1,0 +1,69 @@
+.DisplayScore h2 {
+    font-size: 40px;
+    color: green;
+    padding: 20px;
+}
+
+#correct {
+    color: green;
+}
+
+#incorrect {
+    color: red;
+}
+
+.DisplayScore p {
+    padding: 10px 10px 20px 10px;
+}
+
+.DisplayFeedback p {
+    padding: 0px 10px 40px 10px;
+}
+
+.DisplayFeedback button {
+    margin-top: 10px;
+    width: 280px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgba(0, 98, 255, 0.719);
+    color: white;
+    font-size: 20px
+}
+
+.DisplayFeedback button:hover {
+    background-color: rgba(0, 98, 255, 0.979);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .DisplayScore h2 {
+        font-size: 30px;
+        color: green;
+        padding: 20px;
+    }
+    
+    .DisplayScore p {
+        padding: 10px 10px 20px 10px;
+    }
+    
+    .DisplayFeedback p {
+        padding: 0px 10px 40px 10px;
+    }
+    
+    .DisplayFeedback button {
+        margin-top: 10px;
+        width: 280px;
+        height: 50px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        background-color: rgba(0, 98, 255, 0.719);
+        color: white;
+        font-size: 20px
+    }
+    
+    .DisplayFeedback button:hover {
+        background-color: rgba(0, 98, 255, 0.979);
+        cursor: pointer;
+    }
+}

@@ -2,6 +2,7 @@
     min-height: 90vh;
     padding: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
 }
 
 .Dashboard li {
