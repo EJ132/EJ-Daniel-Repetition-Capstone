@@ -63,9 +63,11 @@
 }
 
 .logged_in span {
-    margin-right: 10px;
-    margin-top: -4px;
-    font-size: 24px;
+    margin-right: 6px;
+    margin-top: 0px;
+    font-size: 18px;
+    width: 100px;
+    text-overflow: ellipsis;
     color: rgb(73, 73, 73);
 }
 
@@ -87,7 +89,8 @@
 
     .logged_in span {
         font-size: 16px;
-        margin-top: 1px;
+        margin-top: -10px;
+        text-align: center;
     }
 
 }
