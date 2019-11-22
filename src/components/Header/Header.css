@@ -66,8 +66,6 @@
     margin-right: 6px;
     margin-top: 0px;
     font-size: 18px;
-    width: 100px;
-    text-overflow: ellipsis;
     color: rgb(73, 73, 73);
 }
 
@@ -91,6 +89,8 @@
         font-size: 16px;
         margin-top: -10px;
         text-align: center;
+        width: 100px;
+        text-overflow: ellipsis;
     }
 
 }
