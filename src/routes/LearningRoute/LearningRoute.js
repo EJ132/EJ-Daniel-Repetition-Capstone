@@ -104,7 +104,6 @@ class LearningRoute extends Component {
           
           
           
-          
         <div className='flashCard_position'>
           <div className='flashCard'>
           <h2 id='hidden'>Translate the word:</h2>
