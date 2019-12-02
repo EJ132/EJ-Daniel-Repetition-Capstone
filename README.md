@@ -1,6 +1,6 @@
 # Spaced Repetition Capstone
 
-Live Client: clevergerman.netlify.com
+Live Client: https://clevergerman.netlify.com
 
 Backend Portion: https://github.com/thinkful-ei-gecko/Daniel-EJ-Spaced-Repetition-API
 
