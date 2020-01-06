@@ -79,6 +79,7 @@
         right: 0px;
         bottom: -25px;
         width: 27%;
+        display: initial;
     }
     
     #german:hover {
