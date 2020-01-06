@@ -82,7 +82,7 @@ class DashboardRoute extends Component {
       }],
     }
     return (
-        <section className='Dashboard'>
+        <section aria-live="polite" className='Dashboard'>
           <div className='main_dashboard'>
             <h1>My Dashboard</h1>
           </div>

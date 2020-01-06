@@ -46,6 +46,7 @@
         width: 80%;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 40px;
         display: flex;
         flex-direction: column;
     }
@@ -54,6 +55,7 @@
         display: none;
     }
 
+<<<<<<< HEAD
 @media screen and (min-width: 768px){
     .banner {
         min-height: 95vh;
@@ -121,3 +123,6 @@
     }
 
 }
+=======
+}
+>>>>>>> accessibility
