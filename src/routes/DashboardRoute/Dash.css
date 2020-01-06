@@ -1,151 +1,8 @@
-.Dashboard {
-    min-height: 90vh;
-    padding: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    overflow: hidden;
-}
-
-.Dashboard li {
-    background-color: rgb(65, 65, 65);
-    border: 1px solid white;
-    color: white;
-}
-
-.Dashboard li:nth-child(1){
-    background-color: white !important;
-    border: 1px solid black !important;
-}
-
-.Dashboard li:nth-last-child(1){
-    height: 100px !important;
-}
-
-.Dashboard li:nth-child(odd) {
-    margin-bottom: 10px;
-    height: 150px;
-    text-align: center;
-    width: 500px;
-}
-
-.Dashboard li:nth-child(even) {
-    margin-bottom: 10px;
-    height: 150px;
-    text-align: center;
-    width: 500px;
-}
-
-.Dashboard li:hover {
-    margin-top: -10px;
-}
-
-.dash_grid {
-    width: 50%;
-    justify-content: left;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: repeat(10,50px);
-}
-
-.dash_grid h3 {
-    text-align: center;
-    font-size: 32px;
-}
-
-.practice_more {
-    border-radius: 5px;
-    border: 1px solid grey;
-    list-style-type: none;
-}
-
-.main_dashboard {
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-}
-
-.main_dashboard h1 {
-    padding-left: 300px;
-    font-size: 64px;
-}
-
-#symbol {
-    position: absolute;
-    top: 45px;
-    right: 520px;
-    font-size: 24px;
-}
-
-.side_dashboard {
-    position: absolute;
-    top: 60px;
-    left: 0px;
-    background-color: rgb(65, 65, 65);
-    min-height: 95vh; 
-    width: 300px;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    padding-top: 50px;
-}
-
-.side_dashboard img{
-    border-radius: 75px;
-    width: 200px;
-}
-
-.side_content {
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.side_content h2 {
-    margin-top: -20px;
-    font-size: 48px;
-}
-
-.side_content h5 {
-    position: initial;
-    font-size: 26px;
-    margin-top: 100px;
-    padding: 10px;
-}
-
-.side_content h4 {
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
-.side_dashboard a {
-    color: white;
-}
-
-.side_dashboard a:visited {
-    text-decoration: none;
-    color: white;
-}
-
-.progress {
-    width: 50%;
-    text-align: center;
-}
-
-.progress h2 {
-    font-size: 32px;
-    margin-top: 100px;
-    margin-bottom: 20px;
-}
-
-.twoPiece_dashboard {
-    padding: 20px;
-    left: 380px;
-    width: 1400px;
-    display: flex;
-    position: absolute;
-}
-
-@media screen and (max-width: 990px){
     .Dashboard {
+        min-height: 90vh;
+        padding: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        overflow: hidden;
         display: flex;
         flex-direction: column;
         padding: initial;
@@ -155,12 +12,18 @@
         font-size: 14px;
         width: 100%;
         padding: 5px;
+        margin-bottom: 10px;
+        height: 150px;
+        text-align: center;
     }
     
     .Dashboard li:nth-child(even) {
         padding: 5px;
         font-size: 14px;
         width: 100%;
+        margin-bottom: 10px;
+        height: 150px;
+        text-align: center;
     }
     
     .Dashboard li:hover {
@@ -259,6 +122,7 @@
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
+        width: 100%;
     }
     
     .progress h2 {
@@ -273,5 +137,163 @@
         display: flex;
         flex-direction: column;
         position: initial;
+    }
+
+@media screen and (min-width: 990px){
+    .Dashboard {
+        min-height: 90vh;
+        padding: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        overflow: hidden;
+        display: initial;
+        flex-direction: initial;
+        padding: initial;
+    }
+    
+    .Dashboard li {
+        background-color: rgb(65, 65, 65);
+        border: 1px solid white;
+        color: white;
+    }
+    
+    .Dashboard li:nth-child(1){
+        background-color: white !important;
+        border: 1px solid black !important;
+    }
+    
+    .Dashboard li:nth-last-child(1){
+        height: 100px !important;
+    }
+    
+    .Dashboard li:nth-child(odd) {
+        margin-bottom: 10px;
+        height: 150px;
+        text-align: center;
+        width: 500px;
+        font-size: initial;
+        padding: initial;
+    }
+    
+    .Dashboard li:nth-child(even) {
+        margin-bottom: 10px;
+        height: 150px;
+        text-align: center;
+        width: 500px;
+        padding: initial;
+        font-size: initial;
+    }
+    
+    .Dashboard li:hover {
+        margin-top: -10px;
+    }
+    
+    .dash_grid {
+        width: 50%;
+        justify-content: left;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(10,50px);
+    }
+    
+    .dash_grid h3 {
+        text-align: center;
+        font-size: 32px;
+    }
+    
+    .practice_more {
+        border-radius: 5px;
+        border: 1px solid grey;
+        list-style-type: none;
+    }
+    
+    .main_dashboard {
+        color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    
+    .main_dashboard h1 {
+        padding-left: 300px;
+        font-size: 64px;
+    }
+    
+    #symbol {
+        position: absolute;
+        top: 45px;
+        right: 520px;
+        font-size: 24px;
+    }
+    
+    .side_dashboard {
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        background-color: rgb(65, 65, 65);
+        min-height: 95vh; 
+        width: 300px;
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    
+    .side_dashboard img{
+        border-radius: 75px;
+        width: 200px;
+    }
+    
+    .side_content {
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .side_content h2 {
+        margin-top: -20px;
+        font-size: 48px;
+    }
+    
+    .side_content h5 {
+        position: initial;
+        font-size: 26px;
+        margin-top: 100px;
+        padding: 10px;
+    }
+    
+    .side_content h4 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .side_dashboard a {
+        color: white;
+    }
+    
+    .side_dashboard a:visited {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .progress {
+        width: 50%;
+        text-align: center;
+        margin-left: initial;
+        margin-right: initial;
+        justify-content: initial;
+    }
+    
+    .progress h2 {
+        font-size: 32px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    
+    .twoPiece_dashboard {
+        padding: 20px;
+        position: absolute;
+        left: 380px;
+        width: 1400px;
+        display: flex;
+        flex-direction: initial;
     }
 }

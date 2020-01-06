@@ -1,74 +1,15 @@
-.banner {
-    background: 
-    url("https://images.unsplash.com/photo-1560930950-5cc20e80e392?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") 
-    no-repeat
-    fixed;
-    background-size: 2250px 1500px;
-    position: relative;
-    width: 100%;
-    min-height: 95vh;
-    padding: 20px;
-    color: white;
-    overflow: hidden;
-}
-
-.Overlay {
-    padding: 100px 75px 100px 100px;
-    background-color: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 95vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-#flag {
-    /* background-color: yellow; */
-    position: fixed;
-    z-index: 0;
-    right: 0px;
-    bottom: -25px;
-    width: 27%;
-}
-
-#german:hover {
- cursor: pointer;
-}
-
-.reg h1 {
-    font-size: 60px;
-    padding: 10px 0px 10px 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.reg p {
-    font-size: 36px;
-}
-
-#spaced {
-    font-size: 14px;
-    padding-top: 5px;
-}
-
-.sign_up {
-    margin-top: -25px;
-    padding: 25px;
-    border: 1px solid grey;
-    border-radius: 5px;
-    height: 280px;
-}
-
-.sign_up h2 {
-    text-align: center;
-}
-
-@media screen and (max-width: 768px){
-
     .banner {
-        min-height: 115vh;
+        background: 
+        url("https://images.unsplash.com/photo-1560930950-5cc20e80e392?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") 
+        no-repeat
+        fixed;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        min-height: 95vh;
+        padding: 20px;
+        color: white;
+        overflow: hidden;
     }
 
     .Overlay {
@@ -81,6 +22,7 @@
         display: flex;
         flex-direction: column;
         justify-content: initial;
+        background-color: rgba(0, 0, 0, 0.6);
     }
 
     .reg h1 {
@@ -110,6 +52,71 @@
 
     #flag {
         display: none;
+    }
+
+@media screen and (min-width: 768px){
+    .banner {
+        min-height: 95vh;
+    }
+    
+    .Overlay {
+        padding: 100px 75px 100px 100px;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 95vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    #flag {
+        /* background-color: yellow; */
+        position: fixed;
+        z-index: 0;
+        right: 0px;
+        bottom: -25px;
+        width: 27%;
+    }
+    
+    #german:hover {
+     cursor: pointer;
+    }
+    
+    .reg h1 {
+        text-align: initial;
+        font-size: 60px;
+        padding: 10px 0px 10px 0px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .reg p {
+        font-size: 36px;
+        text-align: initial;
+    }
+    
+    #spaced {
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    
+    .sign_up {
+        margin-top: -25px;
+        padding: 25px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        height: 280px;
+        width: 300px;
+        margin-left: initial;
+        margin-right: initial;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sign_up h2 {
+        text-align: center;
     }
 
 }
